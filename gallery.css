@@ -1,0 +1,117 @@
+#gallery {
+    padding-top: 8%;
+    background-color: #FFFBF6;
+    background-image: url("images/ref6 1.svg"),url("images/ref5 1.svg"),url("./images/product-vector.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left top, right bottom, center;
+  background-size: auto, auto, auto;
+}
+.gallery-img {
+    width: 100%;
+}
+
+.gallery-row {
+    justify-content: center;
+    padding-bottom: 3%;
+    
+}
+/******************NEWSLETTER*****************/
+#newsletter {
+    background-color: #FFFBF6;
+    background-image: url("./images/product-leaf.svg"),url("./images/story-vector.svg"),url("./images/story-bees.svg");
+  background-position: left 100%, center, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: auto, contain, cover;
+  padding: 8% 0;
+}
+.news-row {
+    justify-content: center;
+}
+.news-img {
+    width: 100%;
+}
+.newsletter-title {
+    font-family: "Montserrat";
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #422123;
+}
+.newsletter-paragraphe {
+    
+font-family: "Montserrat";
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #504A4A;
+}
+.text {
+    width: 90%;
+    border-width: 2px;
+    border-color: #FDBB5F;
+    border-style: solid;
+    
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #504A4A;
+    display: flex;
+justify-content: space-around;
+height: 40px;
+padding: 0 5%;
+}
+input {
+    border: none;
+    background-color: transparent;
+   outline: none;
+   width: 100%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-img {
+padding: 3% 10%;
+    }
+    .story-paragraphe {
+        padding: 0 5%;
+    }
+    #gallery {
+        background-size: 15%, 15%, auto;
+        padding-top: 30%;
+    }
+    .news-row {
+        padding: 15%;
+    }
+#newsletter {
+    background-size: 15%, auto, auto;
+}
+   
+    }
+    @media screen and (max-width: 992px) {
+        .gallery-row {
+            padding: 0 10%;
+        }
+        #gallery {
+            padding-top: 12%;
+            background-size: 12%, 12%, auto;
+        }
+        .text {
+            width: 95%;
+            height: 35px;
+            font-size: 11px;
+        }
+       
+        
+    }
+    @media screen and (max-width: 576px) {
+        #gallery {
+            padding-top: 22%;
+        }
+    }
+   
+    

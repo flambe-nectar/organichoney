@@ -1,0 +1,176 @@
+.all-page {
+  background-color: #FFFBF6;
+  height: 90vh;
+  background-image: url("./images/Group 22.svg"), url("./images/bessback.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover, auto;
+  /* z-index: -1000; */
+}
+
+/******************HERO******************/
+
+#hero {
+padding-top: 5%;
+height: 100vh;
+}
+
+.hero-row {
+  height: 80vh;
+
+
+}
+
+.first-half {
+  background-image: url("images/ref6 1.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: auto;
+  padding: 8% 10% 0 15%;
+}
+
+.second-half {
+  background-image: url("images/ref5 1.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto;
+  /* padding-right: 12%; */
+}
+
+.sub-title {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  color: #422123;
+  padding-left: 29%;
+}
+.main-title {
+  font-family: "Montserrat";
+font-weight: bold;
+font-size: 64px;
+line-height: 64px;
+color: #422123;
+padding-left: 28%;
+}
+
+.hero-paragraphe {
+  font-family: "Montserrat";
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+color: #504A4A;
+padding-top: 5%;
+padding-bottom: 2%;
+padding-left: 28%;
+}
+
+.hero-button {
+
+	background-color:#de4f08;
+	display:inline-block;
+	cursor:pointer;
+	color:#f7e8e8;
+	font-family: "Montserrat";
+	font-size:13px;
+	padding:13px 39px;
+	text-decoration:none;
+  margin-left: 28%;
+
+}
+
+.hero-button:hover {
+color: white;
+}
+.hero-img {
+  width: 80%;
+}
+@media screen and (max-width: 1024px) {
+.second-half {
+  background-position: right 100%;
+}
+.first-half {
+  padding-top: 10%;
+}
+.hero-paragraphe {
+  font-size: 12px;
+}
+.main-title {
+  font-size: 61px;
+}
+.sub-title {
+  font-size: 11px;
+}
+.hero-img {
+  padding-top: 10%;
+  width: 90%;
+}
+.hero-button {
+	font-size:10px;
+	padding:13px 39px;
+	text-decoration:none;
+  margin-left: 28%;
+
+}
+}
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    
+  }
+  .second-half {
+    display: none;
+  }
+  .sub-title {
+    display: none;
+  }
+  .hero-paragraphe {
+    display: none;
+
+
+  }
+  .hero-img {
+    display: none;
+  }
+  .first-half {
+    background-image: url("./images/ref6 1.svg"),url("./images/ref5 1.svg");
+background-position: left 10%, right 100%;
+background-size: auto, auto;
+background-repeat: no-repeat, no-repeat;
+/* padding: 30% 15% 0 15%; */
+padding-top: 22%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+  }
+  .main-title {
+    text-align: center;
+    padding: 0 20% 0 20%;
+    line-height: 80px;
+    padding-bottom: 6%;
+  }
+  .hero-button {
+  margin-left: 0;
+    /* margin-left: 39%; */
+  }
+}
+@media screen and (max-width: 576px) {
+  .first-half {
+    padding-top: 30%;
+    background-position: left 2%, right bottom;
+    background-size: 25%, 25%;
+  }
+  .hero-button {
+    margin-left: 0;
+    padding: 12px 20px;
+  }
+  .main-title {
+    font-size: 43px;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 486px) {
+  .first-half {
+    padding-top: 45%;
+  }
