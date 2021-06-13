@@ -3,7 +3,7 @@
 #story {
   padding: 12% 5% 0 5%;
   background-color: #FFFBF6;
-  background-image: url("story-leaf.svg"),url("story-vector.svg"),url("./images/story-bees.svg");
+  background-image: url("./images/story-leaf.svg"),url("./images/story-vector.svg"),url("./images/story-bees.svg");
   background-position: right 100%, center, center;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: auto, contain, cover;
